@@ -30,7 +30,7 @@ function domain( Client $client, $name ) {
 }
 
 if ( !isset($_SERVER['HTTP_X_COMBELL_BASE'], $_SERVER['PHP_AUTH_USER'], $_SERVER['PHP_AUTH_PW']) ) {
-	err("Need user & pass.");
+	err("Need base & user & pass.");
 }
 
 $d = $_POST;
