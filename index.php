@@ -61,8 +61,8 @@ elseif ( isset($d['delete']) ) {
 	$domain = domain($client, $d['domain']);
 
 	$conditions = array_intersect_key($d, array_flip(['type', 'name', 'value', 'ttl', 'prio']));
-	$conditions['type'] = strtoupper($conditions['type']);
-	$records = $client->findDnsRecords($domain, $conditions);
+	$conditions['type'] = strtolower($conditions['type']);
+	$records = $client->findDnsRecords($domain, $conditions['type'], $conditions);
 
 	$deleted = 0;
 	foreach ( $records as $record ) {
