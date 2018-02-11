@@ -1,0 +1,15 @@
+{
+    "name": "rdx/combell-api-server",
+    "description": "HTTP server for Scraper Combell API",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rudie Dirkx",
+            "email": "github@hotblocks.nl"
+        }
+    ],
+    "require": {
+        "rdx/combell-api": "^1.0"
+    }
+}
