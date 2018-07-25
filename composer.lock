@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "3048e9a0621a3ebf90162537647c28f9",
+    "content-hash": "f76eca7b51daa9685be09140f93c9a74",
     "packages": [
         {
             "name": "guzzlehttp/guzzle",
@@ -239,16 +239,16 @@
         },
         {
             "name": "rdx/combell-api",
-            "version": "1.1",
+            "version": "1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/rudiedirkx/combell-dns-api-client.git",
-                "reference": "714551eddb2ce388c11298ac60ffec864b5033f5"
+                "reference": "1bdf2a487474c45896e0c68fa6d8d318a1019c2c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rudiedirkx/combell-dns-api-client/zipball/714551eddb2ce388c11298ac60ffec864b5033f5",
-                "reference": "714551eddb2ce388c11298ac60ffec864b5033f5",
+                "url": "https://api.github.com/repos/rudiedirkx/combell-dns-api-client/zipball/1bdf2a487474c45896e0c68fa6d8d318a1019c2c",
+                "reference": "1bdf2a487474c45896e0c68fa6d8d318a1019c2c",
                 "shasum": ""
             },
             "require": {
@@ -272,7 +272,7 @@
                 }
             ],
             "description": "Combell DNS API by scraping",
-            "time": "2018-05-22T11:44:33+00:00"
+            "time": "2018-07-25T15:31:42+00:00"
         },
         {
             "name": "rdx/js-dom",
@@ -312,7 +312,7 @@
         },
         {
             "name": "symfony/css-selector",
-            "version": "v3.4.10",
+            "version": "v3.4.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/css-selector.git",
