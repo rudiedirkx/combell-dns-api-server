@@ -47,6 +47,8 @@ if ( isset($d['add']) ) {
 	$client = client();
 	$domain = domain($client, $d['domain']);
 
+	$client->getDnsRecords($domain, $d['type']);
+
 	$record = new DnsRecord(0, $d['name'], $d['type'], $d['value'], @$d['ttl'] ?: 3600, @$d['prio'] ?: '');
 
 	if ( !$client->addDnsRecord($domain, $record) ) {

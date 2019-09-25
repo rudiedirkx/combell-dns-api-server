@@ -10,6 +10,6 @@
         }
     ],
     "require": {
-        "rdx/combell-api": "^1.2"
+        "rdx/combell-api": "^1.3"
     }
 }
